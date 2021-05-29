@@ -60,8 +60,8 @@ class PedidoController extends Controller
             $data = array();
         }
 
-        //return view('layouts.pedidos.pedidos_items', ['data'=>$data])->render();
-        return view('layouts.pedidos.pedidos_items', ['data'=>$this->mock()])->render();
+        return view('layouts.pedidos.pedidos_items', ['data'=>$data])->render();
+        //return view('layouts.pedidos.pedidos_items', ['data'=>$this->mock()])->render();
     }
 
     private function mock(){

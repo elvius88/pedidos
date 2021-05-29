@@ -22,7 +22,7 @@ function buscar_pedido() {
 
 $(document).ready(function (){
     buscar_pedido();
-    /*window.setInterval(function() {
+    window.setInterval(function() {
         buscar_pedido();
-    }, 10000);*/
+    }, 10000);
 });
